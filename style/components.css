@@ -1,0 +1,42 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  button{
+    
+    text-align: center;
+    /* font-family: Sarabun; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 15px;
+    margin-top: -5px;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    padding: 0 20px;
+    transition: all ease .2s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #AB1F6C;
+    color: #fff;
+    border: #AB1F6C solid 2px;
+
+}
+
+.primary-button{
+    background-color: #ff0b82;
+    color: #FFF;
+    border: #ff0b82 solid 2px;
+
+}
+
+.secondary-button{
+    background-color: transparent;
+    color: #ff0b82;
+    border: #ff0b82 solid 2px;
+}

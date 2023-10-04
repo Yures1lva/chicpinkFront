@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+header{
+    display: block;
+    background: white;
+}
+
+header nav{
+    max-width: 980px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul{
+    text-decoration: none;
+    display: flex;
+}
+
+header nav ul li{
+    list-style-type: none;
+    color: #333;
+    text-align: center;
+
+    /* text links */
+    /* font-family: "Sarabun"; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+header nav ul li:first-child{
+    text-decoration-line: underline;
+}
+header nav ul li a:hover{
+    color: #ff0b82;
+    text-decoration-line: none;
+}
+
+
+

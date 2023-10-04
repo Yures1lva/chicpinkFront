@@ -1,0 +1,1 @@
+agilizando front da ChicPink
