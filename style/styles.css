@@ -43,12 +43,19 @@ header nav ul li a {
     padding: 0 15px;
 }
 
-header nav ul li:first-child{
-    text-decoration-line: underline;
+
+
+.promocao{
+    text-decoration-line: underline ;
 }
+
+.promocao:hover{
+    text-decoration-color: #ff0b82;
+}
+
+
 header nav ul li a:hover{
     color: #ff0b82;
-    text-decoration-line: none;
 }
 
 
